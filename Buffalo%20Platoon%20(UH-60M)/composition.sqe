@@ -1,8 +1,8 @@
 version=52;
-center[]={40.409199,5,105.6347};
+center[]={9.53339,5,100.99042};
 class items
 {
-	items=3;
+	items=8;
 	class Item0
 	{
 		dataType="Group";
@@ -15,17 +15,19 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.2278976,0.0014390945,2.1094055};
+					position[]={1.08461,0.0014390945,4.5395889};
 				};
 				side="West";
-				flags=4;
+				flags=6;
 				class Attributes
 				{
-					description="Medical Team Member";
+					rank="SERGEANT";
+					init="this setGroupid [""Buffalo-1""];";
+					description="Buffalo-1 (Pilot)";
 					isPlayable=1;
 				};
-				id=282;
-				type="rhsusf_navy_marpat_d_medic";
+				id=421;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -81,7 +83,7 @@ class items
 										"SCALAR"
 									};
 								};
-								value=1.04;
+								value=0.99000001;
 							};
 						};
 					};
@@ -93,95 +95,17 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.22789764,0.0014390945,1.1094055};
+					position[]={2.08461,0.0014390945,4.5395889};
 				};
 				side="West";
 				flags=4;
 				class Attributes
 				{
-					description="Medical Team Member";
+					description="Copilot";
 					isPlayable=1;
 				};
-				id=283;
-				type="rhsusf_navy_marpat_d_medic";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="ace_isMedic";
-						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=-1;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="ace_isEngineer";
-						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=-1;
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=3;
-				};
-			};
-			class Item2
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={1.2278976,0.0014390945,1.1094055};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					description="Medical Team Member";
-					isPlayable=1;
-				};
-				id=284;
-				type="rhsusf_navy_marpat_d_medic";
+				id=422;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -244,24 +168,22 @@ class items
 					nAttributes=3;
 				};
 			};
-			class Item3
+			class Item2
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.22801971,0.0014390945,2.1094055};
+					position[]={1.08461,0.0014390945,3.5395889};
 				};
 				side="West";
-				flags=6;
+				flags=4;
 				class Attributes
 				{
-					rank="SERGEANT";
-					init="this setGroupid [""Starlight-2""];";
-					description="Starlight-2 (Medical Team Leader)";
+					description="Crew Chief";
 					isPlayable=1;
 				};
-				id=285;
-				type="rhsusf_navy_marpat_d_medic";
+				id=423;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -324,11 +246,89 @@ class items
 					nAttributes=3;
 				};
 			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.08461,0.0014390945,3.5395889};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Door Gunner";
+					isPlayable=1;
+				};
+				id=424;
+				type="rhsusf_army_ocp_helipilot";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
 		};
 		class Attributes
 		{
 		};
-		id=281;
+		id=385;
 	};
 	class Item1
 	{
@@ -342,17 +342,19 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-1.0341873,0.0014390945,-0.24703979};
+					position[]={4.94561,0.0014390945,4.4265823};
 				};
 				side="West";
-				flags=4;
+				flags=6;
 				class Attributes
 				{
-					description="Medical Team Member";
+					rank="SERGEANT";
+					init="this setGroupid [""Buffalo-2""];";
+					description="Buffalo-2 (Pilot)";
 					isPlayable=1;
 				};
-				id=287;
-				type="rhsusf_navy_marpat_d_medic";
+				id=438;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -408,7 +410,7 @@ class items
 										"SCALAR"
 									};
 								};
-								value=1.04;
+								value=0.99000001;
 							};
 						};
 					};
@@ -420,95 +422,17 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.0341873,0.0014390945,-1.2470398};
+					position[]={5.9453201,0.0014390945,4.4264526};
 				};
 				side="West";
 				flags=4;
 				class Attributes
 				{
-					description="Medical Team Member";
+					description="Copilot";
 					isPlayable=1;
 				};
-				id=288;
-				type="rhsusf_navy_marpat_d_medic";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="ace_isMedic";
-						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=-1;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="ace_isEngineer";
-						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=-1;
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=3;
-				};
-			};
-			class Item2
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-1.0341873,0.0014390945,-1.2470398};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					description="Medical Team Member";
-					isPlayable=1;
-				};
-				id=289;
-				type="rhsusf_navy_marpat_d_medic";
+				id=439;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -571,24 +495,22 @@ class items
 					nAttributes=3;
 				};
 			};
-			class Item3
+			class Item2
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.0339432,0.0014390945,-0.24752808};
+					position[]={4.9453201,0.0014390945,3.4264526};
 				};
 				side="West";
-				flags=6;
+				flags=4;
 				class Attributes
 				{
-					rank="SERGEANT";
-					init="this setGroupid [""Starlight-3""];";
-					description="Starlight-3 (Medical Team Leader)";
+					description="Crew Chief";
 					isPlayable=1;
 				};
-				id=290;
-				type="rhsusf_navy_marpat_d_medic";
+				id=440;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -651,11 +573,89 @@ class items
 					nAttributes=3;
 				};
 			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.9453201,0.0014390945,3.4264526};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Door Gunner";
+					isPlayable=1;
+				};
+				id=441;
+				type="rhsusf_army_ocp_helipilot";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
 		};
 		class Attributes
 		{
 		};
-		id=286;
+		id=437;
 	};
 	class Item2
 	{
@@ -669,17 +669,19 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.3062897,0.0014390945,-0.21218872};
+					position[]={1.1156101,0.0014390945,0.54158783};
 				};
 				side="West";
-				flags=4;
+				flags=6;
 				class Attributes
 				{
-					description="Medical Team Member";
+					rank="SERGEANT";
+					init="this setGroupid [""Buffalo-3""];";
+					description="Buffalo-3 (Pilot)";
 					isPlayable=1;
 				};
-				id=292;
-				type="rhsusf_navy_marpat_d_medic";
+				id=443;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -735,7 +737,7 @@ class items
 										"SCALAR"
 									};
 								};
-								value=1.04;
+								value=0.99000001;
 							};
 						};
 					};
@@ -747,95 +749,17 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.30628967,0.0014390945,-1.2121887};
+					position[]={2.1151638,0.0014390945,0.54201508};
 				};
 				side="West";
 				flags=4;
 				class Attributes
 				{
-					description="Medical Team Member";
+					description="Copilot";
 					isPlayable=1;
 				};
-				id=293;
-				type="rhsusf_navy_marpat_d_medic";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="ace_isMedic";
-						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=-1;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="ace_isEngineer";
-						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=-1;
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=3;
-				};
-			};
-			class Item2
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={1.3062897,0.0014390945,-1.2121887};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					description="Medical Team Member";
-					isPlayable=1;
-				};
-				id=294;
-				type="rhsusf_navy_marpat_d_medic";
+				id=444;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -898,24 +822,22 @@ class items
 					nAttributes=3;
 				};
 			};
-			class Item3
+			class Item2
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.30592346,0.0014390945,-0.21243286};
+					position[]={1.1151638,0.0014390945,-0.45798492};
 				};
 				side="West";
-				flags=6;
+				flags=4;
 				class Attributes
 				{
-					rank="SERGEANT";
-					init="this setGroupid [""Starlight-4""];";
-					description="Starlight-4 (Medical Team Leader)";
+					description="Crew Chief";
 					isPlayable=1;
 				};
-				id=295;
-				type="rhsusf_navy_marpat_d_medic";
+				id=445;
+				type="rhsusf_army_ocp_helipilot";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -978,10 +900,651 @@ class items
 					nAttributes=3;
 				};
 			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.1151638,0.0014390945,-0.45798492};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Door Gunner";
+					isPlayable=1;
+				};
+				id=446;
+				type="rhsusf_army_ocp_helipilot";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
 		};
 		class Attributes
 		{
 		};
-		id=291;
+		id=442;
+	};
+	class Item3
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.9916096,0.0014390945,0.58958435};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="this setGroupid [""Buffalo-4""];";
+					description="Buffalo-4 (Pilot)";
+					isPlayable=1;
+				};
+				id=448;
+				type="rhsusf_army_ocp_helipilot";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.9917831,0.0014390945,0.58959198};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Copilot";
+					isPlayable=1;
+				};
+				id=449;
+				type="rhsusf_army_ocp_helipilot";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.9917831,0.0014390945,-0.41040802};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Crew Chief";
+					isPlayable=1;
+				};
+				id=450;
+				type="rhsusf_army_ocp_helipilot";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.9917831,0.0014390945,-0.41040802};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Door Gunner";
+					isPlayable=1;
+				};
+				id=451;
+				type="rhsusf_army_ocp_helipilot";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=447;
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-25.95739,2.7457128,1.5827637};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="[this,""b1""] call cScripts_fnc_UH60TailNumber;";
+			description="Buffalo-1";
+		};
+		id=452;
+		type="RHS_UH60M";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_fastroping_equipFRIES";
+				expression="[_this] call ace_fastroping_fnc_equipFRIES";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-8.4793901,2.7457128,1.364769};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="[this,""b2""] call cScripts_fnc_UH60TailNumber;";
+			description="Buffalo-2";
+		};
+		id=453;
+		type="RHS_UH60M";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_fastroping_equipFRIES";
+				expression="[_this] call ace_fastroping_fnc_equipFRIES";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-25.903391,2.7457128,-22.250237};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="[this,""b3""] call cScripts_fnc_UH60TailNumber;";
+			description="Buffalo-3";
+		};
+		id=454;
+		type="RHS_UH60M";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_fastroping_equipFRIES";
+				expression="[_this] call ace_fastroping_fnc_equipFRIES";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-8.3453903,2.7457128,-22.184235};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="[this,""b4""] call cScripts_fnc_UH60TailNumber;";
+			description="Buffalo-4";
+		};
+		id=455;
+		type="RHS_UH60M";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_fastroping_equipFRIES";
+				expression="[_this] call ace_fastroping_fnc_equipFRIES";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
 	};
 };

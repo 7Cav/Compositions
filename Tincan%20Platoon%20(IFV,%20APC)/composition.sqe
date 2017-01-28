@@ -1,0 +1,1907 @@
+version=52;
+center[]={-48.906265,5,69.27359};
+class items
+{
+	items=15;
+	class Item0
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.3455353,0.0014390945,6.5976181};
+					angles[]={0,3.1429017,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					rank="LIEUTENANT";
+					init="this setGroupid [""Tincan-6""];";
+					description="Tincan-6 (Platoon Leader)";
+					isPlayable=1;
+				};
+				id=481;
+				type="rhsusf_army_ocp_officer";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=480;
+	};
+	class Item1
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.3555374,0.0014390945,6.5986252};
+					angles[]={0,3.1429017,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					rank="LIEUTENANT";
+					init="this setGroupid [""Tincan-5""];";
+					description="Tincan-5 (Platoon Sergeant)";
+					isPlayable=1;
+				};
+				id=483;
+				type="rhsusf_army_ocp_officer";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=482;
+	};
+	class Item2
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.3535385,0.0014390945,6.6396179};
+					angles[]={0,3.1293578,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					init="this setGroupid [""Tincan-7""];";
+					description="Tincan-7 (Platoon Medic)";
+					isPlayable=1;
+				};
+				id=485;
+				type="rhsusf_army_ocp_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.05;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=484;
+	};
+	class Item3
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.8832664,0.0014390945,1.5254135};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="this setGroupid [""Tincan-1""];";
+					description="Tincan-1 (IFV Commander)";
+					isPlayable=1;
+				};
+				id=487;
+				type="rhsusf_army_ocp_crewman";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.8835373,0.0014390945,1.5256195};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Gunner";
+					isPlayable=1;
+				};
+				id=488;
+				type="rhsusf_army_ocp_combatcrewman";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.8835373,0.0014390945,0.52561951};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Driver";
+					isPlayable=1;
+				};
+				id=489;
+				type="rhsusf_army_ocp_driver";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.8835373,0.0014390945,0.52561951};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Loader";
+					isPlayable=1;
+				};
+				id=490;
+				type="rhsusf_army_ocp_driver_armored";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=486;
+	};
+	class Item4
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.979538,0.0014390945,-1.4633789};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="this setGroupid [""Tincan-2""];";
+					description="Tincan-2 (IFV Commander)";
+					isPlayable=1;
+				};
+				id=492;
+				type="rhsusf_army_ocp_crewman";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.9785385,0.0014390945,-1.4633789};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Gunner";
+					isPlayable=1;
+				};
+				id=493;
+				type="rhsusf_army_ocp_combatcrewman";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.9785385,0.0014390945,-2.4633789};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Driver";
+					isPlayable=1;
+				};
+				id=494;
+				type="rhsusf_army_ocp_driver";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.9785385,0.0014390945,-2.4633789};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Loader";
+					isPlayable=1;
+				};
+				id=495;
+				type="rhsusf_army_ocp_driver_armored";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=491;
+	};
+	class Item5
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.4525375,0.0014390945,1.5196228};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="this setGroupid [""Tincan-3""];";
+					description="Tincan-3 (IFV Commander)";
+					isPlayable=1;
+				};
+				id=497;
+				type="rhsusf_army_ocp_crewman";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.4525375,0.0014390945,1.5196228};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Gunner";
+					isPlayable=1;
+				};
+				id=498;
+				type="rhsusf_army_ocp_combatcrewman";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.4525375,0.0014390945,0.5196228};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Driver";
+					isPlayable=1;
+				};
+				id=499;
+				type="rhsusf_army_ocp_driver";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.4525375,0.0014390945,0.5196228};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Loader";
+					isPlayable=1;
+				};
+				id=500;
+				type="rhsusf_army_ocp_driver_armored";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=496;
+	};
+	class Item6
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.4295349,0.0014390945,-1.4243774};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="this setGroupid [""Tincan-4""];";
+					description="Tincan-4 (IFV Commander)";
+					isPlayable=1;
+				};
+				id=502;
+				type="rhsusf_army_ocp_crewman";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.4285355,0.0014390945,-1.4243774};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Gunner";
+					isPlayable=1;
+				};
+				id=503;
+				type="rhsusf_army_ocp_combatcrewman";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.4285355,0.0014390945,-2.4243774};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Driver";
+					isPlayable=1;
+				};
+				id=504;
+				type="rhsusf_army_ocp_driver";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.4285355,0.0014390945,-2.4243774};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="IFV Loader";
+					isPlayable=1;
+				};
+				id=505;
+				type="rhsusf_army_ocp_driver_armored";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=501;
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-10.478954,1.639585,3.5772095};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			description="Tincan-1";
+		};
+		id=507;
+		type="RHS_M2A3_BUSKIII";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle_pmag"",""rhs_weap_fgm148"",""FirstAidKit"",""Medikit""],[4,2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhsusf_100Rnd_762x51"",""rhs_fgm148_magazine_AT"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[75,11,11,4,20,8,4,10,4,4,10]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[8]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item8
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-3.9479561,1.639585,3.6392059};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			description="Tincan-2";
+		};
+		id=508;
+		type="RHS_M2A3_BUSKIII";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle_pmag"",""rhs_weap_fgm148"",""FirstAidKit"",""Medikit""],[4,2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhsusf_100Rnd_762x51"",""rhs_fgm148_magazine_AT"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[75,11,11,4,20,8,4,10,4,4,10]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[8]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item9
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-10.688957,1.639585,-6.3647881};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			description="Tincan-3";
+		};
+		id=509;
+		type="RHS_M2A3_BUSKIII";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle_pmag"",""rhs_weap_fgm148"",""FirstAidKit"",""Medikit""],[4,2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhsusf_100Rnd_762x51"",""rhs_fgm148_magazine_AT"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[75,11,11,4,20,8,4,10,4,4,10]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[8]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item10
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-3.8729553,1.639585,-6.7217941};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			description="Tincan-4";
+		};
+		id=510;
+		type="RHS_M2A3_BUSKIII";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle_pmag"",""rhs_weap_fgm148"",""FirstAidKit"",""Medikit""],[4,2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhsusf_100Rnd_762x51"",""rhs_fgm148_magazine_AT"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[75,11,11,4,20,8,4,10,4,4,10]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[8]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item11
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-25.428001,1.639585,3.6427612};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			description="Tincan-1";
+		};
+		id=519;
+		type="RHS_M2A3_BUSKIII_wd";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle_pmag"",""rhs_weap_fgm148"",""FirstAidKit"",""Medikit""],[4,2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhsusf_100Rnd_762x51"",""rhs_fgm148_magazine_AT"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[75,11,11,4,20,8,4,10,4,4,10]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[8]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item12
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-18.897003,1.639585,3.7047577};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			description="Tincan-2";
+		};
+		id=520;
+		type="RHS_M2A3_BUSKIII_wd";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle_pmag"",""rhs_weap_fgm148"",""FirstAidKit"",""Medikit""],[4,2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhsusf_100Rnd_762x51"",""rhs_fgm148_magazine_AT"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[75,11,11,4,20,8,4,10,4,4,10]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[8]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item13
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-25.638,1.639585,-6.2992287};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			description="Tincan-3";
+		};
+		id=521;
+		type="RHS_M2A3_BUSKIII_wd";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle_pmag"",""rhs_weap_fgm148"",""FirstAidKit"",""Medikit""],[4,2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhsusf_100Rnd_762x51"",""rhs_fgm148_magazine_AT"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[75,11,11,4,20,8,4,10,4,4,10]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[8]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item14
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-18.822006,1.639585,-6.6562386};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			description="Tincan-4";
+		};
+		id=522;
+		type="RHS_M2A3_BUSKIII_wd";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="[[[[""rhs_weap_m4_carryhandle_pmag"",""rhs_weap_fgm148"",""FirstAidKit"",""Medikit""],[4,2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhsusf_100Rnd_556x45_soft_pouch"",""rhsusf_100Rnd_762x51"",""rhs_fgm148_magazine_AT"",""rhs_mag_M441_HE"",""rhs_mag_m714_White"",""rhs_mag_m662_red"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[75,11,11,4,20,8,4,10,4,4,10]],[[""ToolKit""],[1]],[[""rhsusf_falconii""],[8]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};
