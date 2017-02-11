@@ -1,0 +1,987 @@
+version=52;
+center[]={40.409199,5,105.6347};
+class items
+{
+	items=3;
+	class Item0
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.2278976,0.0014390945,2.1094055};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=282;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.22789764,0.0014390945,1.1094055};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=283;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.2278976,0.0014390945,1.1094055};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=284;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.22801971,0.0014390945,2.1094055};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="this setGroupid [""Starlight-2""];";
+					description="Starlight-2 (Medical Team Leader)";
+					isPlayable=1;
+				};
+				id=285;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=281;
+	};
+	class Item1
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.0341873,0.0014390945,-0.24703979};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=287;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.0341873,0.0014390945,-1.2470398};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=288;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.0341873,0.0014390945,-1.2470398};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=289;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.0339432,0.0014390945,-0.24752808};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="this setGroupid [""Starlight-3""];";
+					description="Starlight-3 (Medical Team Leader)";
+					isPlayable=1;
+				};
+				id=290;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=286;
+	};
+	class Item2
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.3062897,0.0014390945,-0.21218872};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=292;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.30628967,0.0014390945,-1.2121887};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=293;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.3062897,0.0014390945,-1.2121887};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					description="Medical Team Member";
+					isPlayable=1;
+				};
+				id=294;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.30592346,0.0014390945,-0.21243286};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="this setGroupid [""Starlight-4""];";
+					description="Starlight-4 (Medical Team Leader)";
+					isPlayable=1;
+				};
+				id=295;
+				type="rhsusf_navy_marpat_d_medic";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ace_isEngineer";
+						expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=291;
+	};
+};
