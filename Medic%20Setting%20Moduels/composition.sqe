@@ -1,0 +1,162 @@
+version=53;
+center[]={365.59213,5,15.203532};
+class items
+{
+	items=3;
+	class Item0
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={-2.579895,0,0.058768272};
+		};
+		id=2044;
+		type="ACE_moduleAssignMedicRoles";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ACE_moduleAssignMedicRoles_EnableList";
+				expression="_this setVariable ['EnableList',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="rhsusf_navy_marpat_wd_medic, rhsusf_navy_marpat_d_medic";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ACE_moduleAssignMedicRoles_role";
+				expression="_this setVariable ['role',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=2;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item1
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={-0.038909912,0,0.027762413};
+		};
+		id=2045;
+		type="ACE_moduleAssignMedicRoles";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ACE_moduleAssignMedicRoles_EnableList";
+				expression="_this setVariable ['EnableList',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="B_medic_F, rhsusf_army_ocp_medic, rhsusf_army_ucp_medic";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ACE_moduleAssignMedicRoles_role";
+				expression="_this setVariable ['role',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item2
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={2.618866,0,-0.086532593};
+		};
+		id=2051;
+		type="ACE_moduleAssignMedicRoles";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ACE_moduleAssignMedicRoles_EnableList";
+				expression="_this setVariable ['EnableList',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="rhsusf_army_ocp_riflemanl, B_Soldier_lite_F, rhsusf_army_ucp_riflemanl";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ACE_moduleAssignMedicRoles_role";
+				expression="_this setVariable ['role',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+};

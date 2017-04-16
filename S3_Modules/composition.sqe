@@ -1,17 +1,17 @@
-version=52;
-center[]={3586.3574,5,4292.8066};
+version=53;
+center[]={362.36166,5,170.1673};
 class items
 {
-	items=12;
+	items=11;
 	class Item0
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={22.704346,0,110.76172};
+			position[]={24.003387,0,118.38348};
 			angles[]={0,1.5692686,0};
 		};
-		id=0;
+		id=1862;
 		type="ace_captives_moduleSettings";
 		class CustomAttributes
 		{
@@ -80,10 +80,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={22.779541,0,61.158203};
+			position[]={24.078583,0,68.779968};
 			angles[]={0,1.5692686,0};
 		};
-		id=1;
+		id=1863;
 		type="ACE_ModuleExplosive";
 		class CustomAttributes
 		{
@@ -152,10 +152,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={23.69751,0,9.8261719};
+			position[]={24.996552,0,17.447937};
 			angles[]={0,1.5692686,0};
 		};
-		id=2;
+		id=1864;
 		type="ace_map_gestures_moduleSettings";
 		class CustomAttributes
 		{
@@ -262,10 +262,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={23.41626,0,-37.571289};
+			position[]={24.715302,0,-29.949524};
 			angles[]={0,1.5692686,0};
 		};
-		id=3;
+		id=1865;
 		type="ace_finger_moduleSettings";
 		class CustomAttributes
 		{
@@ -315,10 +315,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-29.892334,0,111.26416};
+			position[]={-28.593292,0,118.88593};
 			angles[]={0,1.5692686,0};
 		};
-		id=4;
+		id=1866;
 		type="ACE_ModuleSitting";
 		class CustomAttributes
 		{
@@ -349,10 +349,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-30.172607,0,62.449219};
+			position[]={-28.873566,0,70.070984};
 			angles[]={0,1.5692686,0};
 		};
-		id=5;
+		id=1867;
 		type="ACE_moduleRearmSettings";
 		class CustomAttributes
 		{
@@ -383,10 +383,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-30.800537,0,10.097656};
+			position[]={-29.501495,0,17.719421};
 			angles[]={0,1.5692686,0};
 		};
-		id=6;
+		id=1868;
 		type="ACE_moduleRefuelSettings";
 		class CustomAttributes
 		{
@@ -417,10 +417,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-31.080811,0,-38.009277};
+			position[]={-29.781769,0,-30.387512};
 			angles[]={0,1.5692686,0};
 		};
-		id=7;
+		id=1869;
 		type="ACE_moduleRepairSettings";
 		class CustomAttributes
 		{
@@ -603,10 +603,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={20.957031,0,-141.45313};
-			angles[]={0,1.5692686,0};
+			position[]={22.256348,0,-133.8313};
+			angles[]={0,1.5692605,0};
 		};
-		id=8;
+		id=1870;
 		type="ACE_moduleMedicalSettings";
 		class CustomAttributes
 		{
@@ -663,7 +663,7 @@ class items
 								"BOOL"
 							};
 						};
-						value=0;
+						value=1;
 					};
 				};
 			};
@@ -884,101 +884,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-77.888428,0,109.8501};
-			angles[]={0,1.5692686,0};
+			position[]={-24.189667,0,-135.6523};
+			angles[]={0,1.5692605,0};
 		};
-		id=9;
-		type="CODI_ArtilleryComputer_ModuleSettings";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="CODI_ArtilleryComputer_ModuleSettings_SetArtilleryPosition";
-				expression="_this setVariable ['SetArtilleryPosition',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="CODI_ArtilleryComputer_ModuleSettings_DriverHasArtilleryComputer";
-				expression="_this setVariable ['DriverHasArtilleryComputer',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="CODI_ArtilleryComputer_ModuleSettings_GunnerHasArtilleryComputer";
-				expression="_this setVariable ['GunnerHasArtilleryComputer',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="CODI_ArtilleryComputer_ModuleSettings_CommanderHasArtilleryComputer";
-				expression="_this setVariable ['CommanderHasArtilleryComputer',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			nAttributes=4;
-		};
-	};
-	class Item10
-	{
-		dataType="Logic";
-		class PositionInfo
-		{
-			position[]={-25.488281,0,-143.27441};
-			angles[]={0,1.5692686,0};
-		};
-		id=13;
+		id=1872;
 		type="ACE_moduleAdvancedMedicalSettings";
 		class CustomAttributes
 		{
@@ -1111,7 +1020,7 @@ class items
 								"SCALAR"
 							};
 						};
-						value=2;
+						value=1;
 					};
 				};
 			};
@@ -1232,15 +1141,15 @@ class items
 			nAttributes=13;
 		};
 	};
-	class Item11
+	class Item10
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={19.59082,0,-89.088867};
+			position[]={20.889862,0,-81.467102};
 			angles[]={0,1.5692686,0};
 		};
-		id=14;
+		id=1873;
 		type="ACE_ModuleRespawn";
 		class CustomAttributes
 		{
@@ -1283,37 +1192,6 @@ class items
 				};
 			};
 			nAttributes=2;
-		};
-	};
-};
-class connections
-{
-	class LinkIDProvider
-	{
-		nextID=2;
-	};
-	class Links
-	{
-		items=2;
-		class Item0
-		{
-			linkID=0;
-			item0=4257;
-			item1=4256;
-			class CustomData
-			{
-				type="Sync";
-			};
-		};
-		class Item1
-		{
-			linkID=1;
-			item0=4257;
-			item1=4255;
-			class CustomData
-			{
-				type="Sync";
-			};
 		};
 	};
 };
