@@ -617,7 +617,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					description="Alpha Automatic Rifleman";
+					description="Alpha Rifleman";
 					isPlayable=1;
 				};
 				id=425;
@@ -1336,7 +1336,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					description="Alpha Automatic Rifleman";
+					description="Alpha Rifleman";
 					isPlayable=1;
 				};
 				id=435;
@@ -2055,7 +2055,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					description="Alpha Automatic Rifleman";
+					description="Alpha Rifleman";
 					isPlayable=1;
 				};
 				id=445;
@@ -2774,7 +2774,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					description="Alpha Automatic Rifleman";
+					description="Alpha Rifleman";
 					isPlayable=1;
 				};
 				id=455;
